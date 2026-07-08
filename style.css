@@ -813,3 +813,10 @@ input:focus-visible {
     font-size: 12px;
   }
 }
+
+.product-info p{
+  margin-top:6px;
+  font-size:.88rem;
+  color:#777;
+  line-height:1.45;
+}
