@@ -820,3 +820,9 @@ input:focus-visible {
   color:#777;
   line-height:1.45;
 }
+
+.product-info p{
+    margin-top:4px;
+    font-size:14px;
+    color:#999;
+}
