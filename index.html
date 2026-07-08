@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+
+<!-- ============ SEO META ============ -->
+<title>Gediz Tantuni | Eşsiz Lezzetin Adresi</title>
+<meta name="description" content="Gediz Tantuni - Tavuk ve et tantuni, sushi, bazlama tost ve daha fazlası. Eşsiz lezzetin adresi. Dijital menümüzü keşfedin.">
+<meta name="keywords" content="Gediz Tantuni, tantuni, dürüm, sushi, bazlama tost, restoran menü, Türk mutfağı">
+<meta name="author" content="Gediz Tantuni">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0f0f0f">
+
+<!-- ============ OPEN GRAPH ============ -->
+<meta property="og:type" content="restaurant.menu">
+<meta property="og:title" content="Gediz Tantuni | Eşsiz Lezzetin Adresi">
+<meta property="og:description" content="Tavuk ve et tantuni, sushi, bazlama tost ve daha fazlası. Dijital menümüzü keşfedin.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?q=80&w=1200">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:site_name" content="Gediz Tantuni">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gediz Tantuni | Eşsiz Lezzetin Adresi">
+<meta name="twitter:description" content="Eşsiz Lezzetin Adresi — Gediz Tantuni dijital menü">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?q=80&w=1200">
+
+<!-- ============ FAVICON ============ -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230f0f0f'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='%23ff7a00' font-family='Arial' font-weight='bold'%3EG%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230f0f0f'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='%23ff7a00' font-family='Arial' font-weight='bold'%3EG%3C/text%3E%3C/svg%3E">
+
+<!-- ============ FONT ============ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ PAGE LOAD OVERLAY ============ -->
+<div class="loader" id="loader">
+  <div class="loader-mark">GEDİZ<span>TANTUNİ</span></div>
+</div>
+
+<!-- ============ SCROLL PROGRESS BAR ============ -->
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="hero">
+  <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?q=80&w=1600&auto=format&fit=crop')"></div>
+  <div class="hero-overlay"></div>
+
+  <nav class="hero-nav">
+    <div class="hero-nav-brand">GEDİZ<span>TANTUNİ</span></div>
+  </nav>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow reveal">Hoş Geldiniz</p>
+    <h1 class="hero-title reveal">GEDİZ <span>TANTUNİ</span></h1>
+    <p class="hero-subtitle reveal">Eşsiz Lezzetin Adresi</p>
+    <a href="#menu" class="hero-cta reveal ripple">Menüyü Keşfet</a>
+  </div>
+
+  <a href="#menu" class="scroll-down" aria-label="Aşağı kaydır">
+    <span class="scroll-down-text">Kaydır</span>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 5v14M19 12l-7 7-7-7"/>
+    </svg>
+  </a>
+</header>
+
+<!-- ============ STICKY CATEGORY NAV + SEARCH ============ -->
+<div class="menu-nav" id="menuNav">
+  <div class="menu-nav-inner">
+    <div class="menu-search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+      </svg>
+      <input type="text" id="menuSearch" placeholder="Menüde ara..." autocomplete="off">
+    </div>
+    <div class="menu-nav-tabs" id="menuTabs">
+      <a href="#tantuniler" class="menu-tab active" data-target="tantuniler">🌯 Tantuniler</a>
+      <a href="#icecekler" class="menu-tab" data-target="icecekler">🥤 İçecekler</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MENU ============ -->
+<main class="menu" id="menu">
+
+  <section class="menu-section" id="tantuniler">
+    <div class="section-head reveal">
+      <span class="section-icon">🌯</span>
+      <div>
+        <h2>Tantuniler</h2>
+        <p>Taş fırında pişen bazlama, taze malzemelerle buluşuyor</p>
+      </div>
+    </div>
+
+    <div class="product-grid">
+
+      <article class="product-card reveal" data-name="tavuk tantuni">
+        <div class="product-icon"><img src="images/tavuktantuni.webp" alt="Tavuk Tantuni" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Tavuk Tantuni</h3>
+          
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="tavuk tantuni dürüm">
+        <div class="product-icon"><img src="images/tavuktantunid.webp" alt="Tavuk Tantuni Dürüm" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Tavuk Tantuni Dürüm</h3>
+          
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="et tantuni">
+        <div class="product-icon"><img src="images/ettantuni.webp" alt="Et Tantuni" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Et Tantuni</h3>
+          
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="et tantuni dürüm">
+        <div class="product-icon"><img src="images/ettantunidürüm.webp" alt="Et Tantuni Dürüm" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Et Tantuni Dürüm</h3>
+          
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="yoğurtlu tavuk sushi">
+        <div class="product-icon"><img src="images/tavuksushi.webp" alt="Yoğurtlu Tavuk Sushi" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Yoğurtlu Tavuk Sushi</h3>
+          
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="yoğurtlu et sushi">
+        <div class="product-icon"><img src="images/etsushi.webp" alt="Yoğurtlu Et Sushi" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Yoğurtlu Et Sushi</h3>
+         
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="gediz special sushi">
+        <div class="product-icon"><img src="images/gediz-special-sushi.jpg" alt="Gediz Special Sushi" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Gediz Special Sushi</h3>
+         
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="gediz bazlama tost">
+        <div class="product-icon"><img src="images/gediz-bazlama-tost.jpg" alt="Gediz Bazlama Tost" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Gediz Bazlama Tost</h3>
+         
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="çıtır combo tabağı">
+        <div class="product-icon"><img src="images/citir-combo-tabagi.jpg" alt="Çıtır Combo Tabağı" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Çıtır Combo Tabağı</h3>
+          
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="hot dog">
+        <div class="product-icon"><img src="images/hotdog.webp" alt="Hot Dog" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Hot Dog</h3>
+          
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="menu-section" id="icecekler">
+    <div class="section-head reveal">
+      <span class="section-icon">🥤</span>
+      <div>
+        <h2>İçecekler</h2>
+       
+      </div>
+    </div>
+
+    <div class="product-grid">
+
+      <article class="product-card reveal" data-name="çay">
+        <div class="product-icon"><img src="images/cay.webp" alt="Çay" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Çay</h3>
+         
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="su">
+        <div class="product-icon"><img src="images/su.webp" alt="Su" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Su</h3>
+          
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="ayran">
+        <div class="product-icon"><img src="images/ayran.webp" alt="Ayran" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Ayran</h3>
+          
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="kola">
+        <div class="product-icon"><img src="images/kola.webp" alt="Kola" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Kola</h3>
+          
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="fanta">
+        <div class="product-icon"><img src="images/fanta.webp" alt="Fanta" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Fanta</h3>
+         
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="sprite">
+        <div class="product-icon"><img src="images/sprite.webp" alt="Sprite" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Sprite</h3>
+        
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="sade soda">
+        <div class="product-icon"><img src="images/soda.webp" alt="Sade Soda" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Sade Soda</h3>
+         
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="meyveli soda">
+        <div class="product-icon"><img src="images/msoda.webp" alt="Meyveli Soda" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Meyveli Soda</h3>
+         
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+      <article class="product-card reveal" data-name="ice tea">
+        <div class="product-icon"><img src="images/icetea.webp" alt="Ice Tea" loading="lazy"></div>
+        <div class="product-info">
+          <h3>Ice Tea</h3>
+        
+        </div>
+        <div class="product-price">.....</div>
+      </article>
+
+    </div>
+  </section>
+
+  <p class="no-results" id="noResults">Aradığınız ürün bulunamadı.</p>
+
+</main>
+
+<!-- ============ İLETİŞİM ============ -->
+<section class="contact" id="iletisim">
+  <div class="contact-inner reveal">
+    <h2>İletişim</h2>
+    <p class="contact-sub">Sipariş için bize ulaşın</p>
+
+    <div class="contact-grid">
+      <a href="tel:05388630050" class="contact-card ripple">
+        <div class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </div>
+        <div>
+          <span class="contact-label">Telefon</span>
+          <span class="contact-value">0538 863 00 50</span>
+        </div>
+      </a>
+
+      <a href="https://instagram.com/gediztantuni" target="_blank" rel="noopener" class="contact-card ripple">
+        <div class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </div>
+        <div>
+          <span class="contact-label">Instagram</span>
+          <span class="contact-value">@gediztantuni</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FLOATING AKSİYON BUTONLARI ============ -->
+<div class="fab-group" id="fabGroup">
+  <a href="https://wa.me/905388630050" target="_blank" rel="noopener" class="fab fab-whatsapp" aria-label="WhatsApp Sipariş">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.01 2C6.485 2 2 6.485 2 12.01c0 1.828.484 3.593 1.404 5.157L2 22l4.94-1.373A9.94 9.94 0 0 0 12.01 22C17.535 22 22 17.535 22 12.01 22 6.485 17.535 2 12.01 2zm0 18.115c-1.588 0-3.13-.427-4.485-1.235l-.322-.19-3.32.922.906-3.256-.21-.334A8.106 8.106 0 0 1 3.895 12c0-4.474 3.64-8.114 8.115-8.114 4.474 0 8.114 3.64 8.114 8.114 0 4.475-3.64 8.115-8.114 8.115z"/></svg>
+  </a>
+  <a href="tel:05388630050" class="fab fab-call" aria-label="Telefon Ara">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+  <a href="https://instagram.com/gediztantuni" target="_blank" rel="noopener" class="fab fab-insta" aria-label="Instagram">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+  </a>
+</div>
+
+<!-- ============ BACK TO TOP ============ -->
+<button class="back-to-top" id="backToTop" aria-label="Başa dön">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">GEDİZ<span>TANTUNİ</span></div>
+    <p class="footer-tag">Eşsiz Lezzetin Adresi</p>
+
+    <div class="footer-divider"></div>
+
+    <p class="footer-copy">© 2026 Gediz Tantuni</p>
+
+    <p class="footer-credit">
+      QR Menü altyapısı 
+      <a href="https://cetinweb.online" target="_blank" rel="noopener">
+        CetinWeb
+      </a>
+      tarafından oluşturulmuştur.
+    </p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
