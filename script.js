@@ -243,3 +243,25 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { passive: false });
 
 });
+
+document.querySelectorAll(".menu-tab").forEach(tab => {
+  tab.addEventListener("click", function(e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute("href");
+    const targetSection = document.querySelector(targetId);
+
+    if (targetSection) {
+      const navHeight = document.querySelector(".menu-nav")?.offsetHeight || 0;
+      const top = targetSection.offsetTop - navHeight - 15;
+
+      window.scrollTo({
+        top: top,
+        behavior: "smooth"
+      });
+    }
+
+    document.querySelectorAll(".menu-tab").forEach(t => t.classList.remove("active"));
+    this.classList.add("active");
+  });
+});
